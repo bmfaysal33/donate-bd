@@ -4,7 +4,7 @@
         function inputValueById(id){
             const inputs = document.getElementById(id).value;
             const inputsNumber = parseFloat(inputs);
-            return inputs;
+            return inputsNumber;
 
         }
         
